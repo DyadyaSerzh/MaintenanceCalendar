@@ -1,1 +1,1 @@
-[{"name":"mcam","num":"01"}]
+[{"name":"cam Phod","num":"2"},{"name":"cam mbr","num":"23"},{"name":"mtr","num":"05"},{"name":"mtf","num":"09","date":"2024-06-22"},{"name":"test","num":"22","date":"2024-06-22","rate":1}]

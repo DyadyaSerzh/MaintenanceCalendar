@@ -4,7 +4,7 @@ const reduser =(state={list:"",testblockList:{},TBarr:[]}, action)=>{
     
     switch (action.type){
         case "SETTBARR":
-            state.tbarr=action.payload
+            state.TBarr=action.payload
             
             return {...state}
         case "ADDITEM":
@@ -15,6 +15,8 @@ const reduser =(state={list:"",testblockList:{},TBarr:[]}, action)=>{
             let tb={}
             tb.name=action.payload.name
             tb.num=action.payload.number
+            tb.date=action.payload.date
+            tb.rate=1
             state.TBarr[state.TBarr.length]=tb
             let ArrayTB=JSON.stringify(state.TBarr)
             
